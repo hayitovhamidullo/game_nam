@@ -1,7 +1,7 @@
 'use strict';
 let x;
 document.querySelector(`.uzbek`).addEventListener(`click`, function(){
-    document.querySelector(`.between`).textContent = `📈 kiritiladigan solar oralig'i 1 dan 20 gacha 📉`;
+    document.querySelector(`.between`).textContent = `Kiritiladigan solar oralig'i 1 dan 20 gacha`;
     document.querySelector(`.start`).textContent = `🔮 Taxmin qilishni boshlang`;
     document.querySelector(`.Highscore`).textContent = `🏆 Yuqori ball`;
     document.querySelector(`.btm`).textContent = `Tekshirish`;

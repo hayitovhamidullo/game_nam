@@ -25,10 +25,9 @@ header section nav {
   justify-content: space-between;
 }
 header section nav .navbar_left button {
-  background-color: bisque;
   border: none;
   border-radius: 8px;
-  color: cornsilk;
+  color: #222;
   font-size: 16px;
   font-weight: 200;
   padding: 5px;
@@ -46,10 +45,9 @@ header section nav .navbar_reght ul li .between {
 }
 header section nav .navbar_reght ul li button {
   padding: 5px;
-  background-color: bisque;
   border: none;
   border-radius: 8px;
-  color: cornsilk;
+  color: #222;
   font-size: 16px;
   font-weight: 200;
 }
@@ -98,11 +96,12 @@ main section .main_left ul {
 }
 main section .main_left ul li .guess {
   padding: 5px;
+  font-size: 20px;
 }
 main section .main_left ul li .btm {
   font-size: 16px;
   font-weight: 200;
-  padding: 4px;
+  padding: 8px;
 }
 main section .main_right ul {
   list-style: none;
@@ -126,10 +125,10 @@ main section .main_right ul {
     justify-content: space-between;
   }
   header section nav .navbar_left button {
-    background-color: aqua;
+    background-color: #eee;
     border: none;
     border-radius: 8px;
-    color: cornsilk;
+    color: #222;
     font-size: 20px;
     font-weight: 200;
     padding: 5px;
@@ -147,7 +146,7 @@ main section .main_right ul {
   }
   header section nav .navbar_reght ul li button {
     padding: 5px;
-    background-color: aquamarine;
+    background-color: #eee;
     border: none;
     border-radius: 8px;
     font-size: 20px;
@@ -206,6 +205,7 @@ main section .main_right ul {
     background-color: cornsilk;
     border-radius: 8px;
     width: 150px;
+    font-size: 35px;
   }
   main section .main_left ul li .btm {
     font-size: 20px;
