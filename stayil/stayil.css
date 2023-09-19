@@ -25,7 +25,7 @@ header section nav {
   justify-content: space-between;
 }
 header section nav .navbar_left button {
-  border: none;
+  border: 1px #222;
   border-radius: 8px;
   color: #222;
   font-size: 16px;
@@ -97,6 +97,9 @@ main section .main_left ul {
 main section .main_left ul li .guess {
   padding: 5px;
   font-size: 20px;
+  border: 1px white;
+  background-color: #222;
+  color: #eee;
 }
 main section .main_left ul li .btm {
   font-size: 16px;
@@ -202,10 +205,12 @@ main section .main_right ul {
   main section .main_left ul li .guess {
     padding: 5px;
     height: 100px;
-    background-color: cornsilk;
     border-radius: 8px;
     width: 150px;
     font-size: 35px;
+    border: 1px white;
+    background-color: #222;
+    color: #eee;
   }
   main section .main_left ul li .btm {
     font-size: 20px;
