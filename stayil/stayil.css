@@ -1,0 +1,228 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  color: #eee;
+}
+
+header {
+  background-color: #222;
+}
+header section {
+  margin: 0 auto;
+  max-width: 320px;
+  padding-top: 10px;
+}
+header section nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+header section nav .navbar_left button {
+  background-color: bisque;
+  border: none;
+  border-radius: 8px;
+  color: cornsilk;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 5px;
+}
+header section nav .navbar_reght ul {
+  display: flex;
+  column-gap: 15px;
+  list-style: none;
+  align-items: center;
+}
+header section nav .navbar_reght ul li .between {
+  font-size: 20px;
+  font-weight: 400;
+  display: none;
+}
+header section nav .navbar_reght ul li button {
+  padding: 5px;
+  background-color: bisque;
+  border: none;
+  border-radius: 8px;
+  color: cornsilk;
+  font-size: 16px;
+  font-weight: 200;
+}
+header section h1 {
+  margin-top: 100px;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+main {
+  background-color: #222;
+  margin-top: 15px;
+  height: 408px;
+}
+main section {
+  max-width: 320px;
+  margin: 0 auto;
+}
+main section .nam .burton {
+  background: #eee;
+  color: #333;
+  font-size: 36px;
+  width: 80px;
+  padding: 18px 0px;
+  text-align: center;
+  left: 50%;
+  transform: translate(141%, -57%);
+}
+main section .nam .burton .p_tree {
+  display: none;
+}
+main section .main_nam {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+main section .main_left {
+  max-width: 320px;
+  margin: 0 auto;
+}
+main section .main_left ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+main section .main_left ul li .guess {
+  padding: 5px;
+}
+main section .main_left ul li .btm {
+  font-size: 16px;
+  font-weight: 200;
+  padding: 4px;
+}
+main section .main_right ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+@media screen and (min-width: 620px) {
+  header {
+    background-color: #222;
+  }
+  header section {
+    margin: 0 auto;
+    max-width: 1500px;
+    padding-top: 20px;
+  }
+  header section nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  header section nav .navbar_left button {
+    background-color: aqua;
+    border: none;
+    border-radius: 8px;
+    color: cornsilk;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 5px;
+  }
+  header section nav .navbar_reght ul {
+    display: flex;
+    column-gap: 15px;
+    list-style: none;
+    align-items: center;
+  }
+  header section nav .navbar_reght ul li .between {
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+  }
+  header section nav .navbar_reght ul li button {
+    padding: 5px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  header section h1 {
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  main {
+    background-color: #222;
+    margin-top: 15px;
+    height: 408px;
+  }
+  main section {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  main section .nam {
+    max-width: 100px;
+    margin: 0 auto;
+  }
+  main section .nam .burton {
+    background: #eee;
+    color: #333;
+    font-size: 36px;
+    width: 80px;
+    padding: 18px 0px;
+    text-align: center;
+    left: 50%;
+    transform: translate(0%, -60%);
+  }
+  main section .nam .burton .p_tree {
+    display: none;
+  }
+  main section .main_nam {
+    display: flex;
+    flex-direction: row;
+    column-gap: 330px;
+  }
+  main section .main_left {
+    max-width: 620px;
+    margin: 0 auto;
+  }
+  main section .main_left ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+  }
+  main section .main_left ul li .guess {
+    padding: 5px;
+    height: 100px;
+    background-color: cornsilk;
+    border-radius: 8px;
+    width: 150px;
+  }
+  main section .main_left ul li .btm {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  main section .main_right {
+    padding-right: 180px;
+  }
+  main section .main_right ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
+
+
+/*# sourceMappingURL=stayil.css.map */
