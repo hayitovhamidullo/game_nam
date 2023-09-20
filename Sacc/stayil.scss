@@ -22,7 +22,7 @@ header{
             justify-content: space-between;
             .navbar_left{
                 button{
-                    border: 1px #222;
+                    border: 1px solid #222;
                     border-radius: 8px;
                     color: #222;
                     font-size: 16px;
@@ -100,8 +100,8 @@ main{
                     .guess{
                         padding: 5px;
                         font-size: 20px;
-                        border: 1px white;
-                        background-color: #222;
+                        border: 3px solid white;
+                        background-color: gray;
                         color: #eee;
                     }
                     .btm{
@@ -187,19 +187,14 @@ main{
             .nam{
                 max-width: 100px;
                 margin: 0 auto;
-                .burton{
-                    background: #eee;
-                    color: #333;
-                    font-size: 36px;
-                    width: 80px;
-                    padding: 18px 0px;
-                    text-align: center;
-                    left: 50%;
-                    transform: translate(0%, -60%);
-                    .p_tree{
-                        display: none;
-                    }
-                }
+                background: #eee;
+                color: #333;
+                font-size: 36px;
+                width: 80px;
+                padding: 18px 0px;
+                text-align: center;
+                left: 50%;
+                transform: translate(0%, -60%);
             }
             .main_nam{
                 display: flex;
@@ -221,8 +216,8 @@ main{
                             border-radius: 8px;
                             width: 150px;
                             font-size: 35px;
-                            border: 1px white;
-                            background-color: #222;
+                            border: 5px solid white;
+                            background-color: dimgray;
                             color: #eee;
                         }
                         .btm{
